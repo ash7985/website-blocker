@@ -1,0 +1,48 @@
+to make this file run when your computer just starts the you have to do following steps
+
+for LINUX(ubuntu):
+
+
+open terminal into the same directory in which you are having your python file
+
+just run the following command
+
+sudo nano /etc/hosts
+
+sudo chron -e
+
+after that in the end just add the line
+
+@reboot python3 /home/ashish/Desktop/atom/website blocker/blocker_script.py      # THE PATH OF YOUR SCRIPT
+ctrl x
+Y
+
+
+
+
+for windows:
+
+just save your python file with the extension .pyw
+
+after that just go to the task scheduler 
+->create task
+-> enter whatever you want the name,configure the windows version and tick on the run with highest privileges
+-> in trigger section: just add new trigger 
+       after that select a the startup at the begining of the task
+->in actions just browse your script i.e enter the address of your .pyw file into the browse section
+after that in the conditions just do some formalities which you want and enjoy the website blocker
+
+
+
+you can also run this code in your terminal 
+but make sure that you have run your terminal at administrator mode and also make sure that once the host file is edited then you you have to change that manually 
+
+
+the other way is that just edit the code and remove all the input methods and set the time you want to block your websites and add the websites in the lists whichj you wnat to block at certain time limit or always  
+
+
+
+
+HOPE YOU UNDERSTAND
+
+
